@@ -26,7 +26,7 @@ void menu() {
 }
 
 int main() {
-    cout << "=== 10x10 Grid Demo ===\n";
+    cout << "10x10 Grid\n\n";
 
     IntArray arr;
     arr.initializeGrid();   // fill with 1–100
@@ -44,7 +44,7 @@ int main() {
         }
 
         switch (choice) {
-        case 1: {
+        case 1: { // Find value
             try {
                 int value = readIntOrThrow("Value to find: ");
                 int idx = arr.find(value);
@@ -56,7 +56,7 @@ int main() {
             }
             break;
         }
-        case 2: {
+		case 2: { // Modify at index
             try {
                 int index = readIntOrThrow("Index to modify (0-99): ");
                 int newVal = readIntOrThrow("New value: ");
@@ -71,7 +71,7 @@ int main() {
             }
             break;
         }
-        case 3: {
+		case 3: { // Append new value
             try {
                 int newVal = readIntOrThrow("Value to append: ");
                 arr.pushBack(newVal);
@@ -82,7 +82,7 @@ int main() {
             }
             break;
         }
-        case 4: {
+		case 4: { // Remove at index
             try {
                 int index = readIntOrThrow("Index to remove: ");
                 if (index < 0) throw out_of_range("Index cannot be negative.");
@@ -94,10 +94,10 @@ int main() {
             }
             break;
         }
-        case 5:
+        case 5: // Print grid
             arr.printAsGrid();
             break;
-        case 0:
+        case 0: // Exit
             cout << "Goodbye!\n";
             break;
         default:

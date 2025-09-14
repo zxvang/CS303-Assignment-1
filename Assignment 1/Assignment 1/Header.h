@@ -1,5 +1,4 @@
-#ifndef HEADER_H
-#define HEADER_H
+#pragma once
 
 #include <cstddef>
 #include <stdexcept>
@@ -36,4 +35,4 @@ private:
     size_t m_capacity;
 };
 
-#endif
+
