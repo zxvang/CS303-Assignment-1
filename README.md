@@ -1,5 +1,5 @@
 # CS303-Assignment-1
-Hello, this C++ code take a one directional array of numbers and completes a series of tasks. Below are the options of the menu and a deeper look at what they do.]
+Hello, this C++ code takes a one directional array of numbers and completes a series of tasks. Below are the options of the menu and a deeper look at what they do.
 
 Initial Menu:
 
