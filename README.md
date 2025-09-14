@@ -28,3 +28,9 @@ the array and return the new value and old value back to the user.
 <img width="912" height="542" alt="Screenshot 2025-09-14 141809" src="https://github.com/user-attachments/assets/0b1735e5-2d06-42bd-b6d7-7ed57691076d" />
 
 
+
+Example of what will happen when an error occurs for option 1:
+
+
+<img width="448" height="498" alt="Screenshot 2025-09-14 143252" src="https://github.com/user-attachments/assets/820420aa-7cbb-448b-8936-d5f2498bb487" />
+
